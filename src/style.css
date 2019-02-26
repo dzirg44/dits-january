@@ -1,0 +1,124 @@
+/* color pallete 
+green - rgb(10,209,179)
+white - rgb(242,244,245)
+grey - rgb(64,80,91)
+blue - rgb(0,191,255)
+black - rgb(32,51,64)
+purple - rgb(125,75,130)
+white-grey - rgb(227,217,187)
+*/
+
+.topnav {
+  background-color:rgb(64,80,91);
+  margin: -10px;
+  border: 1px;
+  padding: 5px;
+  border-style: solid;
+  border-color: rgb(10,209,179);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a.left-nav {
+  float: left;
+  color: rgb(242,244,245);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.right-nav {
+  float: right;
+  color: rgb(242,244,245);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(10,209,179);
+  color: black;
+}
+
+/*
+Business card section css
+*/
+.bc-main {
+  position: relative;
+}
+
+.bc-h2{
+  color: rgb(3, 15, 126);
+}
+.bc-avatar {
+  border-radius: 50%;
+  height: 10%;
+  width: 10%;
+}
+.bc-body {
+  background-position: center center;
+
+  background: rgb(242,244,245);
+  text-align: center;
+  padding: 10px;
+  border: solid 1px;
+  width: 50%;
+  position: relative;
+  margin: auto;
+  top: 30px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+}
+
+.bc-nav-item {
+  font-size: 45px;
+  border-radius: 100%;
+  border: solid 2px rgb(64,80,91);
+  width: 72px;
+  height: 72px;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bc-nav-item-social {
+  color: rgb(32,51,64);
+  text-decoration:none;
+}
+
+
+.bc-nav-item:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.bc-nav {
+  display: flex;
+  justify-content: center;
+}
+
+/*
+experiments page css
+*/
+
+div.experiments-bar b {
+  color: #FF3399; 
+}
+
+
+/*
+cv page css
+*/
+
+.myfacejpg {
+  width: 20%; 
+}
